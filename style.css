@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+.enfant1, .enfant2 {
+    width: 20rem;
+    height: 20rem;
+}
+
+.enfant1 {
+    background-color: black;
+    transition: width;
+    transition: height;
+    transition: background-color;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+
+}
+
+.enfant1:hover {
+    background-color: lightgrey;
+    width: 30rem;
+    height: 30rem;
+}
+
+.enfant2 {
+    color: purple;
+    transition: color;
+    font-size: 1rem;
+    transition: font-size;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+}
+
+.enfant2:hover {
+    color: green;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .enfant1, .enfant2 {
+        width: 100%;
+    }
+    .enfant2 {
+        font-size: 1.5rem;
+    }
+
+}
+
