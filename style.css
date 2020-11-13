@@ -30,7 +30,6 @@ body {
     transition-duration: 6s;
     transition-timing-function: ease-in-out;
     transition-delay: 500ms;
-
 }
 
 .enfant1:hover {
@@ -58,6 +57,7 @@ body {
     .enfant1, .enfant2 {
         width: 100%;
     }
+
     .enfant2 {
         font-size: 1.5rem;
     }
