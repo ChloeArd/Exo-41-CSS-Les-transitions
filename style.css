@@ -54,7 +54,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .enfant1, .enfant2 {
+    .enfant1, .enfant2, .enfant1:hover {
         width: 100%;
     }
 
