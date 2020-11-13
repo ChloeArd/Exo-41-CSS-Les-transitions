@@ -53,6 +53,14 @@ body {
     font-size: 3rem;
 }
 
+.para1 {
+    background-color: yellow;
+}
+
+.para2 {
+    background-color: orange;
+}
+
 @media screen and (max-width: 600px) {
     .enfant1, .enfant2, .enfant1:hover {
         width: 100%;
